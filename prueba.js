@@ -2,9 +2,9 @@ var querystring = require('querystring');
 var https = require('https');
 
 var host = 'cubero.spaces.nexudus.com';
-var username = 'jccubero96@gmail.com';
-var password = 'Chispa34';
-var apiKey = 'Chispa34';
+var username = 'email';
+var password = '....';
+var apiKey = '....';
 var sessionId = null;
 var deckId = '68DC5A20-EE4F-11E2-A00C-0858C0D5C2ED';
 
@@ -47,7 +47,7 @@ function performRequest(endpoint, method, data, success) {
         success(responseObject);
 
   });
-  
+
 
   req.write(dataString);
   req.end();
